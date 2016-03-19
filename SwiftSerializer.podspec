@@ -6,7 +6,6 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE"}
   s.source       = { :git => "https://github.com/xieyi64/swift-serializer.git", :tag => "#{s.version}" }
   s.authors      = {'Mailcloud' => "contact@mailcloud.com"}
-  s.social_media_url   = "https://twitter.com/mailcloud"
   s.ios.deployment_target = "8.0"
   s.osx.deployment_target = "10.9"
   s.source_files  = "src/*"
